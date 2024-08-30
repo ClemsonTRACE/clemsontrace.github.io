@@ -1,0 +1,66 @@
+@import "general";
+
+html {
+    color: #333;
+    font-size: 16px;
+}
+
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+input, input:focus{
+    outline: none;
+    border: 0 none;
+}
+textarea {
+    resize: vertical;
+    outline: none;
+}
+a{
+    transition: 0.3s ease;
+    &:hover{
+        text-decoration: none;
+    }
+    &:focus{
+        outline: none;
+    }
+}
+body{
+    font-family: $roboto;
+}
+p{
+    color:#504b47;
+    font-weight: 300;
+    line-height: 27px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #333;
+    font-family: $hind;
+}
+h2{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45px;
+}

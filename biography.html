@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- load 'people' json object from people.js  -->
+<script type="text/javascript" src="people.js"></script>
+
+<script>
+  const queryString = window.location.search;
+  const urlParams = new URLSearchParams(queryString);
+  const person = urlParams.get('person');
+  var person_obj = null;
+  for (ind = 0; ind < people.length; ind++) {
+    if (people[ind].name == person) {
+      person_obj = people[ind];
+    }
+  }
+  if (person_obj == null) {
+    window.location.replace("http://stackoverflow.com");
+  }
+  console.log("\"");
+  console.log("<img src=\"/images-custom/headshots/" + person_obj.img_cat + "/" + person_obj.img_url + "\" alt = \"" + person_obj.name + " portrait\">")
+  const pic = (person_obj.name.split(" ")[0].toLowerCase() + "-" + person_obj.name.split(" ")[1].toLowerCase() + "-Portrait.jpg")
+  console.log(pic);
+</script>
+
+<head>
+  <meta charset="UTF-8">
+  <!-- viewport meta -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="TRACE Research Group at Clemson University">
+  <meta name="keywords"
+    content="clemson ai, clemson research, clemson hcc, clemson hci, south carolina, ai south carolina, artificial intelligence, human factors, clemson">
+
+  <script>document.title = person_obj.name + " | TRACE Research Group"</script>
+  <link rel="icon" href="images-custom/t-logo-favicon.ico" type="image/x-icon">
+
+  <!-- inject:css -->
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/simple-line-icons.css">
+  <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap/bootstrap-reboot.css">
+  <link rel="stylesheet" href="style.css">
+  <!-- endinject -->
+</head>
+
+
+<body>
+  <!-- Header Starts -->
+  <!-- Header Starts -->
+  <header>
+    <!-- Starts: .main-menu -->
+    <div class="main-menu" style="visibility: visible;">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand" href="index.html">
+            <img src="images-custom/rednblue-logo.png" alt="" style="visibility: visible;">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon icon-menu"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="publications.html?year=2020">Publications</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="team.html">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <!-- Ends .nav-right -->
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-- Ends: .main-menu -->
+  </header>
+  <!-- Ends: header -->
+  <!-- Ends: header -->
+
+  <!-- Start .featured-projects -->
+  <section class="featured-projects section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 projects-excerpts">
+          <h2>
+            <script>document.write(person_obj.name);</script>
+          </h2>
+          <a href="" class="project-category">
+            <span class="icon-graduation"></span>
+            <script>
+              document.write(person_obj.title);
+            </script>
+          </a>
+          <p>
+            <script>document.write(person_obj.description)</script>
+          </p>
+          <script>
+            if (person_obj.researchInterests != undefined) {
+              document.write("<ul class=\"list-unstyled\"><li><b>Research Interests:</b></li>")
+            }
+            for (ind = 0; ind < person_obj.researchInterests.length; ind++) {
+              document.write("<li>" + person_obj.researchInterests[ind] + "</li>")
+            }
+            document.write("</ul>")
+          </script>
+          <div class="ind_icon">
+            <ul class="list-unstyled">
+              <script>
+                if (person_obj.linkedInUrl != undefined && person_obj.linkedInUrl != "") {
+                  document.write("<span><a href=\"" + person_obj.linkedInUrl + "\">LinkedIn</a></span>&nbsp;")
+                }
+                if (person_obj.personalWebsiteUrl != undefined && person_obj.personalWebsiteUrl != "") {
+                  document.write("<span><a href=\"" + person_obj.personalWebsiteUrl + "\">Website</a></span>&nbsp;")
+                }
+                if (person_obj.googleScholarUrl != undefined && person_obj.googleScholarUrl != "") {
+                  document.write("<span><a href=\"" + person_obj.googleScholarUrl + "\">Google Scholar</a></span>&nbsp;")
+                }
+                if (person_obj.gitHubUrl != undefined && person_obj.gitHubUrl != "") {
+                  document.write("<span><a href=\"" + person_obj.gitHubUrl + "\">gitHub</a></span>&nbsp;")
+                }
+                if (person_obj.cvUrl != undefined && person_obj.cvURL != "") {
+                  document.write("<span><a href=\"" + person_obj.cvUrl + "\"> CV </a></span>&nbsp;")
+                }
+                if (person_obj.twitterUrl != undefined && person_obj.twitterUrl != "") {
+                  document.write("<span><a href=\"" + person_obj.twitterUrl + "\">Twitter</a></span>&nbsp;")
+                }
+
+              </script>
+            </ul>
+          </div>
+        </div>
+        <!-- Ends: .projects-excerpts -->
+        <div class="col-md-8">
+          <div class="row">
+            <div class="col-md-6">
+              <script>
+                document.write("<img src=\"images-custom/headshots/" + person_obj.img_cat + "/" + pic + "\" alt = \"" + person + " portrait\" class=\"biopic\">");
+              </script>
+            </div>
+          </div>
+          <!-- Ends: .col-md-8 -->
+        </div>
+      </div>
+  </section>
+  <!-- Ends: .featured-projects -->
+
+  <footer>
+    <div class="col-md-12">
+      <div class="footer-bottom">
+        <p>
+          Copyright &copy;
+          <script>document.write(new Date().getFullYear())</script>
+          TRACE Research Group | All Rights Reserved
+        </p>
+      </div>
+
+    </div>
+    </div>
+    </div>
+  </footer>
+  <!-- Ends: .featured-projects -->
+</body>

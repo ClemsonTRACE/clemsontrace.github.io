@@ -1,0 +1,32 @@
+
+//Project/Blog Pagination
+.project-pagination{
+    margin: 80px 0;
+    ul{
+        margin-bottom: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        li{
+            a{
+                display: flex;
+                align-items: center;
+                color: $pcolor;
+                font-size: 18px;
+                &:hover{
+                    color: $text-color;
+                }
+            }
+            &:first-child{
+                a span{
+                    padding-right: 7px;
+                }
+            }
+            &:last-child{
+                a span{
+                    padding-left: 7px;
+                }
+            }
+        }
+    }
+}

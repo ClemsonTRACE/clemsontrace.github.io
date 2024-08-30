@@ -1,0 +1,155 @@
+/*****************************
+	RESPONSIVE
+*****************************/
+@import "common/theme";
+/*this is responsive scss*/
+$tablet: 768px;
+$laptop: 1070px;
+$ipad: 992px;
+
+/* 992 TO 1199 */
+@media (min-width:$ipad ) and (max-width: 1199px) {
+	.services-boxes .box-single ul li{
+		text-align: left;
+	}
+	.process-content{
+		padding: 60px 0;
+	}
+	.hiw-process{
+		background-size: 60%;
+	}
+}
+
+/* 991 */
+@media (max-width: $ipad - 1) {
+	.navbar .navbar-collapse{
+		ul{
+			li{
+				&.dropdown{
+					.dropdown-menu{
+						top: 100%;
+						display: none;
+						visibility: visible;
+						opacity: 1;
+						&.show{
+							display: block;
+						}
+						&:before{
+							content: none;
+						}
+					}
+					&:hover{
+						.dropdown-menu{
+							visibility: visible;
+							opacity: 1;
+						}
+					}
+				}
+			}
+		}
+	}
+	.service-box-wrapper{
+		padding: 120px 0 90px 0;
+	}
+	.services-boxes{
+		position: relative;
+		transform: inherit;
+		.box-single{
+			margin-bottom: 30px;
+		}
+	}
+	.services{
+		padding-top: 120px;
+		border-top: 1px solid $borderColor;
+	}
+	.service-image{
+		margin-bottom: 30px;
+		figure{
+			img{
+				width: 100%;
+			}
+		}
+	}
+	.hiw-process:before{
+		width: 100%;
+	}
+	.events .single-event{
+		text-align: center;
+	}
+	.events .a-date{
+		width: 100%;
+		padding-left: 0;
+	}
+	.events .a-date, .events .a-desc{
+		margin-bottom: 30px;
+	}
+	.blog-sidebar{
+		margin-top: 80px;
+	}
+	.projects-excerpts{
+		margin-bottom: 60px;
+	}
+	.project-single{
+		margin-bottom: 30px;
+	}
+	.research-keynotes .box{
+		margin-bottom: 30px;
+	}
+	.research-features ul{
+		margin-bottom: 30px;
+	}
+}
+
+/* 768 TO 992*/
+@media (min-width: $tablet) and (max-width: $ipad - 1px) {
+	.hero-area .hero-area-content h1{
+		width:100%;
+	}
+}
+
+/* 767 */
+@media  screen and (max-width: $tablet - 1) {
+	#particles{
+		min-height: 500px;
+	}
+	.hero-area .hero-area-content{
+		top: 50%;
+	}
+	.hero-area .hero-area-content h1,
+	.hero-area .hero-area-content p,
+	.section-title p,
+	.cta-contents p{
+		width: 100%;
+	}
+
+	.events .single-event{
+		text-align: center;
+	}
+	.events .a-date{
+		width: 100%;
+		padding-left: 0;
+	}
+	.events .a-date, .events .a-desc{
+		margin-bottom: 30px;
+	}
+	.hero-area .hero-area-content form{
+		width: 90%;
+	}
+	.projects .project-grid .project-single{
+		width: 50%;
+	}
+	.header-top .top-left{
+		text-align: center;
+	}
+	.header-top .top-right{
+		text-align: center;
+		margin-top: 15px;
+	}
+}
+
+/* 320 TO 480 */
+@media  (min-width: 320px) and (max-width: 480px) {
+	.projects .project-grid .project-single{
+		width: 100%;
+	}
+}

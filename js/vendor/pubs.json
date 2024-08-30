@@ -1,0 +1,2495 @@
+[
+  {
+    "id": "http://zotero.org/users/local/bB4beZZW/items/5KGYQWD9",
+    "type": "article-journal",
+    "abstract": "Project overview\n              Teamwork can be defined as dynamic team interaction between two or more interdependent members to achieve a shared goal. Many studies have examined how coordination dynamics are associated with team effectiveness in the context of all-human teams (Gorman, Amazeen, & Cooke, 2010), and later, in human-autonomy teams (HAT)s (Demir, Likens, Cooke, Amazeen, & McNeese, 2018). HATs must have autonomous agents that act as effective teammates and help enable HATs to function as collaborative systems. Synergistic relationships among a system’s human and technological components provide the basis for emergent systems-level outcomes. Layered dynamics, a recent empirical modelling technique aimed at achieving this objective (Gorman et al., 2019), considers reorganization of the sociotechnical system across individual components and the overall system. The current study examined layered dynamics of HATs during automation and autonomy failures and addresses how members of HATs interact with each other and technological aspects of the system.\n            \n            \n              Design and Method\n              We utilized a simulated Remotely Piloted Aircrtaft System (RPAS) Synthetic Task Environment with three heteregeneous and interdepedent roles: (1) a navigator, who created a dynamic flight plan and provided waypoint related information; (2) a pilot, who used this information to monitor and adjust settings. The pilot also communicated with the photographer to negotiate settings and enable proper conditions to obtain a good photograph; and (3) a photographer, who monitored and adjusted the camera to take good target photos, and provided feedback to the team. This study utilized a Wizard of Oz paradigm, in which the navigator and photographer were instructed that the pilot was a synthetic agent. However, the pilot was a highly-trained experimenter, in a separate room, who simulated an autonomous agent using limited vocabulary. There were 22 teams, and two participants were randomly assigned to the navigator and photographer roles. This task was comprised of ten 40-minute missions, and teams needed to take as many good photos as possible while avoiding alarms and rule violations. The primary manipulation was the application of three degraded conditions: (1) automation failure - role-level display failures, (2) autonomy failure - autonomous agent’s abnormal behavior, and (3) malicious cyber-attacks - the hijaking of the RPAS, with the synthetic agent providing false, detrimental information. We symbolically represented RPAS using layered dynamics, and calculated entropy measures for each (Gorman et al., 2019): (1) communications: team members interacting within the chat system; (2) vehicle: states of the RPA, including airspeed/altitude, turns, fuel, battery, remaining film, and termperature level; and (3) controls: the interface controls between the RPA and the team members. To measure team performance, we used a time and coordination based metric for each target in each mission.\n            \n            \n              Results and Discussion\n              Our main findings were: 1) vehicle and communication entropy were higher than control entropy and were associated with better adaptation to both failures, and 2) control entropy had a negative association with initial status on team performance, while vehicle entropy had a positive association. These findings describe the tendency of low performing teams to anticipate targets poorly. This was due to a failure to interact with the technology in a timely manner. This lagged effect can be attributed to teams taking too long to interact with the technology. These findings shed light on how the layered dynamics approach can help understand team behavior under degraded conditions.\n            \n            \n              Acknowledgements\n              This research is supported by ONR Award N000141712382 (Program Managers: Marc Steinberg, Micah Clark). We also acknowledge the assistance of Steven M. Shope, Sandia Research Corporation who integrated the synthetic agent and the testbed.",
+    "container-title": "Proceedings of the Human Factors and Ergonomics Society Annual Meeting",
+    "DOI": "10.1177/1071181319631307",
+    "ISSN": "2169-5067, 1071-1813",
+    "issue": "1",
+    "journalAbbreviation": "Proceedings of the Human Factors and Ergonomics Society Annual Meeting",
+    "language": "en",
+    "page": "165-165",
+    "source": "DOI.org (Crossref)",
+    "title": "Layered Dynamics and System Effectiveness of Human-Autonomy Teams Under Degraded Conditions",
+    "URL": "http://journals.sagepub.com/doi/10.1177/1071181319631307",
+    "volume": "63",
+    "author": [
+      {
+        "family": "Grimm",
+        "given": "David A."
+      },
+      {
+        "family": "Demir",
+        "given": "Mustafa"
+      },
+      {
+        "family": "Gorman",
+        "given": "Jamie C."
+      },
+      {
+        "family": "Cooke",
+        "given": "Nancy J."
+      },
+      {
+        "family": "McNeese",
+        "given": "Nathan J."
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2020",
+          3,
+          12
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2019",
+          11
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/local/bB4beZZW/items/J5ZWUF8U",
+    "type": "article-journal",
+    "abstract": "Project overview\n              Team resilience is an interactive and dynamic process that develops over time while a team maintains performance. This study aims to empirically investigate systems-level resilience in a Remotely Piloted Aircraft (RPA) System simulated task environment by examining team interaction during novel events. The approach used in the current study to measure systems-level resilience was developed by Hoffman & Hancock (2017). In their conceptual study, resilience was considered a key feature of success in emerging complex sociotechnical systems; in our case, that is applied to Human-Autonomy Teams (HATs). Hoffman and Hancock conceptualized a resilience measure dynamically by means of several components, such as the time it took the system to recognize and characterize anomalies, and the time taken to specify and achieve new goals. In their framework, there were two main sub-events which expressed resilience via time-based measures, and upon which we designed ours in this study: (1) time taken to design a new process and (2) time required to implement it (Hoffman & Hancock, 2017).\n            \n            \n              Design\n              In this current research, there were three heterogeneous team members who used a text-based system to communicate and successfully photograph target waypoints: (1) navigator – provided information regarding a flight plan with speed and altitude restrictions of each waypoint; (2) pilot – controlled the RPA by adjusting its altitude and airspeed through negotiating with the photographer in order to take a good photo of the target waypoints; and (3) photographer – screened camera settings and sent feedback to the other team members regarding the status of target’s photograph. This study followed the Wizard of Oz paradigm wherein the navigator and photographer were seated together in one room and were told that the pilot was a synthetic agent. In actuality, the pilot was a well-trained experimenter who was working from a separate room. This ‘synthetic’ pilot used restricted vocabulary to simulate that of a computer. The main manipulations in this study consisted of three degraded conditions: (1) automation failure - role-level display failures while processing specific targets, (2) autonomy failure - autonomous agent behaved abnormally while processing specific targets (i.e., it provided misinformation to other team members or demonstrated incorrect actions), and (3) malicious cyber-attacks - the hijacking of the synthetic agent, which led to the synthetic agent providing false, detrimental information to the team about the RPA destination. Because the malicious cyber-attack only occurred once (during the final mission), we will focus on the automation and autonomy failures for this study. Each failure was imposed at a selected target waypoint and the teams had to find a solution in a limited amount of time. The time limit for each failure was related to the difficulty of the failure. Each failure was introduced at a pre-selected target waypoint for each team.\n            \n            \n              Method\n              In this experiment, there were 22 teams, with only two participants randomly assigned to the navigator and photographer roles for each team, because the pilot was a highly-trained experimenter. The current task was comprised of ten 40-minute missions in which teams needed to take as many “good” photos as possible of ground targets while avoiding alarms and rule violations. For this study, using the RPAS paradigm, we calculated two team resilience scores (1) time taken to design a new process and (2) time required to implement it (Hoffman & Hancock, 2017). For the calculations, we used the message sent time (in seconds) for each role to express resilience in terms of the proportion of total task time (2400 seconds). As an outcome measure, we used target processing efficiency as a coordination and time-based performance score, which was based on how quickly teams were able to take a good photo of each target.\n            \n            \n              Results and discussion\n              We found that teams were more resilient during automation failures and progressed toward targets more successfully than during autonomy failures. We see three possible explanations for this: (1) automation failures were more explicit than autonomy failures, since at least one team member interacted with other teammates; (2) autonomy failures took more time for human teammates to identify the failure, because the autonomous agent’s abnormal behavior was not as straight forward; and 3) human teammates overtrusted to the autonomous agent and lack confidence in themselves and let the failure go on.\n            \n            \n              Acknowledgements\n              This research is supported by ONR Award N000141712382 (Program Managers: Marc Steinberg, Micah Clark). We also acknowledge the assistance of Steven M. Shope of Sandia Research Corporation, who integrated the synthetic agent and the testbed.",
+    "container-title": "Proceedings of the Human Factors and Ergonomics Society Annual Meeting",
+    "DOI": "10.1177/1071181319631020",
+    "ISSN": "2169-5067, 1071-1813",
+    "issue": "1",
+    "journalAbbreviation": "Proceedings of the Human Factors and Ergonomics Society Annual Meeting",
+    "language": "en",
+    "page": "153-154",
+    "source": "DOI.org (Crossref)",
+    "title": "An Empirical Exploration of Resilience in Human-Autonomy Teams Operating Remotely Piloted Aircraft Systems",
+    "URL": "http://journals.sagepub.com/doi/10.1177/1071181319631020",
+    "volume": "63",
+    "author": [
+      {
+        "family": "Demir",
+        "given": "Mustafa"
+      },
+      {
+        "family": "McNeese",
+        "given": "Nathan J."
+      },
+      {
+        "family": "Cooke",
+        "given": "Nancy J."
+      },
+      {
+        "family": "Grimm",
+        "given": "David A."
+      },
+      {
+        "family": "Gorman",
+        "given": "Jamie C."
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2020",
+          3,
+          12
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2019",
+          11
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/local/bB4beZZW/items/DPFFI5HC",
+    "type": "paper-conference",
+    "abstract": "The preparation of next generation analyst work requires alternative levels of understanding and new methodological departures from the way current work transpires. Current work practices typically do not provide a comprehensive approach that emphasizes the role of and interplay between (a) cognition, (b) emergent activities in a shared situated context, and (c) collaborative teamwork. In turn, effective and efficient problem solving fails to take place, and practice is often composed of piecemeal, techno-centric tools that isolate analysts by providing rigid, limited levels of understanding of situation awareness. This coupled with the fact that many analyst activities are classified produces a challenging situation for researching such phenomena and designing and evaluating systems to support analyst cognition and teamwork. Through our work with cyber, image, and intelligence analysts we have realized that there is more required of researchers to study human-centered designs to provide for analyst’s needs in a timely fashion.",
+    "DOI": "10.1117/12.2016514",
+    "event": "SPIE Defense, Security, and Sensing",
+    "event-place": "Baltimore, Maryland, USA",
+    "language": "en",
+    "page": "87580F",
+    "publisher-place": "Baltimore, Maryland, USA",
+    "source": "DOI.org (Crossref)",
+    "title": "Using the living laboratory framework as a basis for understanding next-generation analyst work",
+    "URL": "http://proceedings.spiedigitallibrary.org/proceeding.aspx?doi=10.1117/12.2016514",
+    "author": [
+      {
+        "family": "McNeese",
+        "given": "Michael D."
+      },
+      {
+        "family": "Mancuso",
+        "given": "Vincent"
+      },
+      {
+        "family": "McNeese",
+        "given": "Nathan"
+      },
+      {
+        "family": "Endsley",
+        "given": "Tristan"
+      },
+      {
+        "family": "Forster",
+        "given": "Pete"
+      }
+    ],
+    "editor": [
+      {
+        "family": "Broome",
+        "given": "Barbara D."
+      },
+      {
+        "family": "Hall",
+        "given": "David L."
+      },
+      {
+        "family": "Llinas",
+        "given": "James"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2020",
+          3,
+          12
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2013",
+          5,
+          28
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/local/bB4beZZW/items/U69WMCU9",
+    "type": "paper-conference",
+    "abstract": "The aim of this exploratory paper is to underline the importance of coordination-based training for dynamic tasks in human-autonomy teaming. We address training solutions to distinct types of failures caused by either internal (the system) and external sources (the dynamic task environment). In order to accomplish this, we explore Human-Autonomy teaming communication and coordination with comprehensive scenarios drawn from the pilot tests and look at team needs to successfully overcome complex and dynamic failures. Findings from these two failure events are two-fold: (1) in order to adapt to dynamic environments and overcome unexpected failures, teams should receive role-related training (static and knowledge-based) as well as training about how to interact with one another (dynamic and coordination-based) and (2) designing synthetic agents with effective team coordination mechanisms will help future team training exercises. Current and future work is focused on additional experimentation on team training in the context of Human-Autonomy teams. Furthermore, future experimentation should highlight additional requirements needed for designing synthetic teammates and also dynamic task training necessary to produce effective teamwork.",
+    "container-title": "2019 IEEE Conference on Cognitive and Computational Aspects of Situation Management (CogSIMA)",
+    "DOI": "10.1109/COGSIMA.2019.8724202",
+    "event": "2019 IEEE Conference on Cognitive and Computational Aspects of Situation Management (CogSIMA)",
+    "event-place": "Las Vegas, NV, USA",
+    "ISBN": "978-1-5386-9599-9",
+    "language": "en",
+    "page": "122-126",
+    "publisher": "IEEE",
+    "publisher-place": "Las Vegas, NV, USA",
+    "source": "DOI.org (Crossref)",
+    "title": "Effective Team Interaction for Adaptive Training and Situation Awareness in Human-Autonomy Teaming",
+    "URL": "https://ieeexplore.ieee.org/document/8724202/",
+    "author": [
+      {
+        "family": "Demir",
+        "given": "Mustafa"
+      },
+      {
+        "family": "McNeese",
+        "given": "Nathan J."
+      },
+      {
+        "family": "Johnson",
+        "given": "Craig"
+      },
+      {
+        "family": "Gorman",
+        "given": "Jamie C."
+      },
+      {
+        "family": "Grimm",
+        "given": "David"
+      },
+      {
+        "family": "Cooke",
+        "given": "Nancy J."
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2020",
+          3,
+          12
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2019",
+          4
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/local/bB4beZZW/items/EBC7VWCB",
+    "type": "article-journal",
+    "abstract": "Objective: Three different team configurations are compared with the goal of better understanding human-autonomy teaming (HAT).\nBackground: Although an extensive literature on human-automation interaction exists, much less is known about HAT in which humans and autonomous agents interact as coordinated units. Further research must be conducted to better understand how allhuman teams compare to HAT.\nMethods: In an unmanned aerial system (UAS) context, a comparison was made among three types of three-member teams: (1) synthetic teams in which the pilot role is assigned to a synthetic teammate, (2) control teams in which the pilot was an inexperienced human, and (3) experimenter teams in which an experimenter served as an experienced pilot. Ten of each type of team participated. Measures of team performance, target processing efficiency, team situation awareness, and team verbal behaviors were analyzed.\nResults: Synthetic teams performed as well at the mission level as control (all human) teams but processed targets less efficiently. Experimenter teams performed better across all other measures compared to control and synthetic teams.\nConclusion: Though there is potential for a synthetic agent to function as a full-fledged teammate, further advances in autonomy are needed to improve team-level dynamics in HAT teams.",
+    "container-title": "Human Factors: The Journal of the Human Factors and Ergonomics Society",
+    "DOI": "10.1177/0018720817743223",
+    "ISSN": "0018-7208, 1547-8181",
+    "issue": "2",
+    "journalAbbreviation": "Hum Factors",
+    "language": "en",
+    "page": "262-273",
+    "source": "DOI.org (Crossref)",
+    "title": "Teaming With a Synthetic Teammate: Insights into Human-Autonomy Teaming",
+    "title-short": "Teaming With a Synthetic Teammate",
+    "URL": "http://journals.sagepub.com/doi/10.1177/0018720817743223",
+    "volume": "60",
+    "author": [
+      {
+        "family": "McNeese",
+        "given": "Nathan J."
+      },
+      {
+        "family": "Demir",
+        "given": "Mustafa"
+      },
+      {
+        "family": "Cooke",
+        "given": "Nancy J."
+      },
+      {
+        "family": "Myers",
+        "given": "Christopher"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2020",
+          3,
+          12
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2018",
+          3
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/local/bB4beZZW/items/NAKSFUAM",
+    "type": "article-journal",
+    "container-title": "Proceedings of the Human Factors and Ergonomics Society Annual Meeting",
+    "DOI": "10.1177/1541931213601334",
+    "ISSN": "1541-9312",
+    "issue": "1",
+    "journalAbbreviation": "Proceedings of the Human Factors and Ergonomics Society Annual Meeting",
+    "language": "en",
+    "page": "1459-1463",
+    "source": "DOI.org (Crossref)",
+    "title": "Human Systems Integration: A 28,000 Foot View",
+    "title-short": "Human Systems Integration",
+    "URL": "http://journals.sagepub.com/doi/10.1177/1541931213601334",
+    "volume": "60",
+    "author": [
+      {
+        "family": "Cooke",
+        "given": "Nancy J."
+      },
+      {
+        "family": "McNeese",
+        "given": "Nathan J."
+      },
+      {
+        "family": "Shope",
+        "given": "Steven M."
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2020",
+          3,
+          12
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2016",
+          9
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/local/bB4beZZW/items/NPEV5TAC",
+    "type": "article-journal",
+    "container-title": "Proceedings of the Human Factors and Ergonomics Society Annual Meeting",
+    "DOI": "10.1177/154193120805201928",
+    "ISSN": "1541-9312",
+    "issue": "19",
+    "journalAbbreviation": "Proceedings of the Human Factors and Ergonomics Society Annual Meeting",
+    "language": "en",
+    "page": "1435-1439",
+    "source": "DOI.org (Crossref)",
+    "title": "Team Performance in Real and Virtual Worlds: The Perceived Value of Second Life",
+    "title-short": "Team Performance in Real and Virtual Worlds",
+    "URL": "http://journals.sagepub.com/doi/10.1177/154193120805201928",
+    "volume": "52",
+    "author": [
+      {
+        "family": "McNeese",
+        "given": "Nathaniel J."
+      },
+      {
+        "family": "Pfaff",
+        "given": "Mark S."
+      },
+      {
+        "family": "Santoro",
+        "given": "Gerald M."
+      },
+      {
+        "family": "McNeese",
+        "given": "Michael D."
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2020",
+          3,
+          12
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2008",
+          9
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/local/bB4beZZW/items/5SNXCG3X",
+    "type": "chapter",
+    "abstract": "Team cognition is beginning to be realized as an important facet of team sports. As we continue to articulate the role of team cognition during team sports, we need to understand how to measure team cognition. In this paper, we present multiple knowledge elicitation methods to measure team cognition. We also propose new elicitation methods that account for the dynamic nature of team sports.",
+    "container-title": "Advances in Human Factors in Sports and Outdoor Recreation",
+    "event-place": "Cham",
+    "ISBN": "978-3-319-41952-7",
+    "language": "en",
+    "note": "collection-title: Advances in Intelligent Systems and Computing\nDOI: 10.1007/978-3-319-41953-4_1",
+    "page": "3-15",
+    "publisher": "Springer International Publishing",
+    "publisher-place": "Cham",
+    "source": "DOI.org (Crossref)",
+    "title": "Knowledge Elicitation Methods for Developing Insights into Team Cognition During Team Sports",
+    "URL": "http://link.springer.com/10.1007/978-3-319-41953-4_1",
+    "volume": "496",
+    "editor": [
+      {
+        "family": "Salmon",
+        "given": "Paul"
+      },
+      {
+        "family": "Macquet",
+        "given": "Anne-Claire"
+      }
+    ],
+    "author": [
+      {
+        "family": "McNeese",
+        "given": "Nathan J."
+      },
+      {
+        "family": "Cooke",
+        "given": "Nancy J."
+      },
+      {
+        "family": "Gray",
+        "given": "Rob"
+      },
+      {
+        "family": "Fedele",
+        "given": "Michael"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2020",
+          3,
+          12
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2017"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/local/bB4beZZW/items/X9B33JA2",
+    "type": "article-journal",
+    "abstract": "A survey of rural hospitals was conducted in the spring of 2012 to better understand their perspectives on health information technology (HIT) outsourcing and the role that hospital-to-hospital HIT partnerships (HHPs) can play as an outsourcing mechanism. The survey sought to understand how HHPs might be leveraged for HIT implementation, as well as the challenges with forming them. The results suggest that HHPs have the potential to address rural hospitals’ slow rate of HIT adoption, but there are also challenges to creating these partnerships. These issues, as well as avenues for further research, are then discussed.",
+    "language": "en",
+    "page": "11",
+    "source": "Zotero",
+    "title": "A Survey of Rural Hospitals’ Perspectives on Health Information Technology Outsourcing",
+    "author": [
+      {
+        "family": "Johnson",
+        "given": "Nicholas"
+      },
+      {
+        "family": "Murphy",
+        "given": "Alison"
+      },
+      {
+        "family": "McNeese",
+        "given": "Nathan"
+      },
+      {
+        "family": "Reddy",
+        "given": "Madhu"
+      },
+      {
+        "family": "Purao",
+        "given": "Sandeep"
+      }
+    ]
+  },
+  {
+    "id": "http://zotero.org/users/local/bB4beZZW/items/J8T5TK9A",
+    "type": "article-journal",
+    "abstract": "In case of emergencies (e.g., earthquakes, flooding), rapid responses are needed in order to address victims’ requests for help. Social media used around crises involves self-organizing behavior that can produce accurate results, often in advance of official communications. This allows affected population to send tweets or text messages, and hence, make them heard. The ability to classify tweets and text messages automatically, together with the ability to deliver the relevant information to the appropriate personnel are essential for enabling the personnel to timely and efficiently work to address the most urgent needs, and to understand the emergency situation better. In this study, we developed a reusable information technology infrastructure, called Enhanced Messaging for the Emergency Response Sector (EMERSE), which classifies and aggregates tweets and text messages about the Haiti disaster relief so that non-governmental organizations, relief workers, people in Haiti, and their friends and families can easily access them.",
+    "language": "en",
+    "page": "11",
+    "source": "Zotero",
+    "title": "Classifying Text Messages for the Haiti Earthquake",
+    "author": [
+      {
+        "family": "Caragea",
+        "given": "Cornelia"
+      },
+      {
+        "family": "McNeese",
+        "given": "Nathan"
+      },
+      {
+        "family": "Jaiswal",
+        "given": "Anuj"
+      },
+      {
+        "family": "Traylor",
+        "given": "Greg"
+      },
+      {
+        "family": "Kim",
+        "given": "Hyun-Woo"
+      },
+      {
+        "family": "Mitra",
+        "given": "Prasenjit"
+      },
+      {
+        "family": "Wu",
+        "given": "Dinghao"
+      },
+      {
+        "family": "Tapia",
+        "given": "Andrea H"
+      },
+      {
+        "family": "Giles",
+        "given": "Lee"
+      },
+      {
+        "family": "Jansen",
+        "given": "Bernard J"
+      },
+      {
+        "family": "Yen",
+        "given": "John"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2011"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/local/bB4beZZW/items/G2UBY5F8",
+    "type": "article-journal",
+    "abstract": "In case of emergencies (e.g., earthquakes, flooding), rapid responses are needed in order to address victims’ requests for help. Social media used around crises involves self-organizing behavior that can produce accurate results, often in advance of official communications. This allows affected population to send tweets or text messages, and hence, make them heard. The ability to classify tweets and text messages automatically, together with the ability to deliver the relevant information to the appropriate personnel are essential for enabling the personnel to timely and efficiently work to address the most urgent needs, and to understand the emergency situation better. In this study, we developed a reusable information technology infrastructure, called Enhanced Messaging for the Emergency Response Sector (EMERSE). The components of EMERSE are: (i) an iPhone application; (ii) a Twitter crawler component; (iii) machine translation; and (iv) automatic message classification. While each component is important in itself and deserves a detailed analysis, in this paper we focused on the automatic classification component, which classifies and aggregates tweets and text messages about the Haiti disaster relief so that they can be easily accessed by non-governmental organizations, relief workers, people in Haiti, and their friends and families.",
+    "language": "en",
+    "page": "11",
+    "source": "Zotero",
+    "title": "Classifying Text Messages for the Haiti Earthquake",
+    "author": [
+      {
+        "family": "Caragea",
+        "given": "Cornelia"
+      },
+      {
+        "family": "McNeese",
+        "given": "Nathan"
+      },
+      {
+        "family": "Jaiswal",
+        "given": "Anuj"
+      },
+      {
+        "family": "Traylor",
+        "given": "Greg"
+      },
+      {
+        "family": "Kim",
+        "given": "Hyun-Woo"
+      },
+      {
+        "family": "Mitra",
+        "given": "Prasenjit"
+      },
+      {
+        "family": "Wu",
+        "given": "Dinghao"
+      },
+      {
+        "family": "Tapia",
+        "given": "Andrea H"
+      },
+      {
+        "family": "Giles",
+        "given": "Lee"
+      },
+      {
+        "family": "Jansen",
+        "given": "Bernard J"
+      },
+      {
+        "family": "Yen",
+        "given": "John"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2011"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/local/bB4beZZW/items/WHWC86ME",
+    "type": "article-journal",
+    "abstract": "In this paper we propose a new model for teamwork that integrates team cognition, collective intelligence, and artificial intelligence. We do this by first characterizing what sets team cognition and collectively intelligence apart, and then reviewing the literature on “superforecasting” and the ability for effectively coordinated teams to outperform predictions by large groups. Lastly, we delve into the ways in which teamwork can be enhanced by artificial intelligence through our model, finally highlighting the many areas of research worth exploring through interdisciplinary efforts.",
+    "container-title": "Proceedings of the Human Factors and Ergonomics Society Annual Meeting",
+    "DOI": "10.1177/1071181319631278",
+    "ISSN": "2169-5067, 1071-1813",
+    "issue": "1",
+    "journalAbbreviation": "Proceedings of the Human Factors and Ergonomics Society Annual Meeting",
+    "language": "en",
+    "page": "1466-1470",
+    "source": "DOI.org (Crossref)",
+    "title": "Collectively Intelligent Teams: Integrating Team Cognition, Collective Intelligence, and AI for Future Teaming",
+    "title-short": "Collectively Intelligent Teams",
+    "URL": "http://journals.sagepub.com/doi/10.1177/1071181319631278",
+    "volume": "63",
+    "author": [
+      {
+        "family": "Canonico",
+        "given": "Lorenzo Barberis"
+      },
+      {
+        "family": "Flathmann",
+        "given": "Christopher"
+      },
+      {
+        "family": "McNeese",
+        "given": "Nathan"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2020",
+          3,
+          12
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2019",
+          11
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/local/bB4beZZW/items/MDG3LBKI",
+    "type": "article-journal",
+    "abstract": "Project Overview\n              Team Situation Awareness (TSA), which is a part of team cognition, is a critical factor that influences team effectiveness. It can be defined as getting the right information from the right person within the right amount of time, in order to overcome an unexpected event (Gorman, Cooke, Pederson, Connor, & DeJoode, 2005). TSA is developed and maintained through team interactions, allowing for the measurement of TSA based on team interaction (Cooke & Gorman, 2009). In the current study, a specific measure, Coordinated Awareness of Situation by Teams (CAST) is used (Cooke & Gorman, 2009). CAST evaluates the effectiveness and efficiency of team interaction under “roadblock” scenarios (Gorman, Cooke, & Winner, 2006). These roadblocks represent novel situations in the task and require effective team communication and coordination. Team members must assess the situation according to their own specialized role and/or resources and coordinate with other team members to overcome each separate roadblock. In this task, effective communication refers to team anticipation. That is, each team member needs to anticipate each other’s needs by pushing information rather than pulling information during the task (Demir, McNeese, & Cooke, 2017). In this study, we examined how pushing and pulling information, and CAST were associated with Team Situation Awareness (TSA) in both Human-Autonomy (HAT) and all-human teams in simulated Remotely Piloted Aircraft System (RPAS) task environment. In this research, we integrated the synthetic agent to the Cognitive Engineering Research on Team Tasks Remotely Piloted Aircraft Systems - Synthetic Task Environment (CERTT-RPAS-STE) which was designed to be both a flexible research platform and a realistic task environment with a view to researching team performance and interaction-based measures of team cognition. In the simulated CERTT testbed, there are three heterogeneous teammates who need to take good photos of each target waypoint by communicating via text-chat: (1) the navigator who creates a dynamic flight plan and provides information about the waypoints, the RPA’s airspeed, and altitude restrictions to the pilot; (2) the pilot, who controls the RPA’s heading, altitude, and airspeed, and negotiates with the photographer in order to take a good photo; and (3) the photographer, who monitors sensor equipment in order to take photographs of target waypoints and sends feedback to the other team members about the quality of the photo. This project aimed to understand how team behaviors and team performance differed between HATs and all-human teams in RPAS operations: (1) the synthetic condition—the pilot role was given to the synthetic teammate, which was an ACT-R based cognitive model (which had a limited interaction ability, see Ball et al., 2010; Demir et al., 2015); (2) the control condition—the pilot was a randomly selected human participant, just like the other two participants; and (3) the experimenter condition—one of the experimenters served as an expert pilot. Experimenter condition utilized a Wizard of Oz paradigm in which a trained experimenter (located in a separate room) used a script to imitate a synthetic teammate and communicated with participants in limited communication behaviors but pushing and pulling information in a timely manner (robust coordination).\n            \n            \n              Method\n              There were 30 teams (10 for each condition): control teams consisted of three participants randomly assigned to each role; synthetic and experimenter teams included two participants randomly assigned to the navigator and photographer roles. The experiment took place over five 40-minute missions, and the goal was to take as many “good” photos of ground targets as possible while avoiding alarms and rule violations. During each mission, teams were presented with “roadblocks” by the introduction of a new, ad hoc target waypoint. We collected several measures, but we focused on: the proportion of roadblocks overcome per mission as an outcome measure of TSA; the CAST which is a coordination sequence of team interaction across the team members (i.e. which team members share with team members their experience during the roadblock); and verbal behaviors such as pushing and pulling information.\n            \n            \n              Results and discussion\n              In this team task, effective teamwork involves anticipating the needs of teammates, which in turn means pushing information before it is requested. However, in addition to anticipation, effective coordination is also needed during roadblocks. HATs demonstrated significantly lower levels of CAST than all-human teams. These results indicate that HATs’ lack of anticipation and coordination resulted in poorer TSA performance. These findings help HATs to grow its coordination and communication methodologies. Finally, future studies might examine the relationships highlighted in this study via nonlinear measures in terms of team stability and flexibility based on their communication and coordination patterns during the novel events. HAT is here to stay but improvements to human-machine interactions must continue if we are to improve team effectiveness.",
+    "container-title": "Proceedings of the Human Factors and Ergonomics Society Annual Meeting",
+    "DOI": "10.1177/1071181319631259",
+    "ISSN": "2169-5067, 1071-1813",
+    "issue": "1",
+    "journalAbbreviation": "Proceedings of the Human Factors and Ergonomics Society Annual Meeting",
+    "language": "en",
+    "page": "146-147",
+    "source": "DOI.org (Crossref)",
+    "title": "Team Coordination of Team Situation Awareness in Human-Autonomy Teaming",
+    "URL": "http://journals.sagepub.com/doi/10.1177/1071181319631259",
+    "volume": "63",
+    "author": [
+      {
+        "family": "Demir",
+        "given": "Mustafa"
+      },
+      {
+        "family": "McNeese",
+        "given": "Nathan J."
+      },
+      {
+        "family": "She",
+        "given": "Manrong"
+      },
+      {
+        "family": "Cooke",
+        "given": "Nancy J."
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2020",
+          3,
+          12
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2019",
+          11
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/local/bB4beZZW/items/7VEVP43N",
+    "type": "chapter",
+    "abstract": "In Human-Autonomy Teaming (HAT), the development of a highly autonomous agent as a team member is difficult. Similar to human-human teaming, there are multiple dimensions of social behaviors that occur during HAT that must be accounted for within the development of the agent or system. One of these dimensions is team synchrony. In general, team synchrony is, when two systems (or two individuals in a team) are synchronized, resulting in their recurrences being dependent on each other. In order for a human-autonomy team to be synchronous the agent must communicate effectively (i.e., synchronize effectively) with its human team members. Thus, in this paper we present a conceptual discussion on what team synchrony is, how it occurs, and how to better develop it in HAT. To ground our discussion, we use our recent studies in which we empirically looked at team behaviors and team synchrony of HAT.",
+    "container-title": "Advances in Human Factors in Robots and Unmanned Systems",
+    "event-place": "Cham",
+    "ISBN": "978-3-319-60383-4",
+    "language": "en",
+    "note": "collection-title: Advances in Intelligent Systems and Computing\nDOI: 10.1007/978-3-319-60384-1_29",
+    "page": "303-312",
+    "publisher": "Springer International Publishing",
+    "publisher-place": "Cham",
+    "source": "DOI.org (Crossref)",
+    "title": "Team Synchrony in Human-Autonomy Teaming",
+    "URL": "http://link.springer.com/10.1007/978-3-319-60384-1_29",
+    "volume": "595",
+    "editor": [
+      {
+        "family": "Chen",
+        "given": "Jessie"
+      }
+    ],
+    "author": [
+      {
+        "family": "Demir",
+        "given": "Mustafa"
+      },
+      {
+        "family": "McNeese",
+        "given": "Nathan J."
+      },
+      {
+        "family": "Cooke",
+        "given": "Nancy J."
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2020",
+          3,
+          12
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2018"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/local/bB4beZZW/items/PAVDCLQA",
+    "type": "article-journal",
+    "abstract": "Adaptive complex team behaviors evolve dynamically and occur in many different environments. In this study, we examined the role of these behaviors and their relationship with team performance in the context of human-autonomy teams (HAT) and all-human teams. The HAT served as the “synthetic” condition in which two human team members were informed that the third team member was a “synthetic” agent; in the control condition, the team members were informed that the pilot was a remotely located human teammate. Following are the primary ﬁndings from this study: ﬁrst, control teams demonstrated better performance than the synthetic teams; second, control teams were more active than the synthetic teams in terms of planning the task, and third, the behavioral passiveness of the synthetic teams (due to lack of planning) associated with diminished team performance. This suggests that the synthetic teams did not show enough adaptive complex behaviors that were evident in control teams. This ﬁnding implies that merely believing the pilot to be a synthetic agent made it more difﬁcult for synthetic teams to plan and, thus, effectively anticipate their teammates’ needs. In addition, this study highlights that there is a signiﬁcant need for humans to gain experience in working with a synthetic agent to overcome negative perceptions.",
+    "container-title": "IEEE Transactions on Emerging Topics in Computational Intelligence",
+    "DOI": "10.1109/TETCI.2018.2829985",
+    "ISSN": "2471-285X",
+    "issue": "4",
+    "journalAbbreviation": "IEEE Trans. Emerg. Top. Comput. Intell.",
+    "language": "en",
+    "page": "258-267",
+    "source": "DOI.org (Crossref)",
+    "title": "The Impact of Perceived Autonomous Agents on Dynamic Team Behaviors",
+    "URL": "https://ieeexplore.ieee.org/document/8416798/",
+    "volume": "2",
+    "author": [
+      {
+        "family": "Demir",
+        "given": "Mustafa"
+      },
+      {
+        "family": "McNeese",
+        "given": "Nathan J."
+      },
+      {
+        "family": "Cooke",
+        "given": "Nancy J."
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2020",
+          3,
+          12
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2018",
+          8
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/local/bB4beZZW/items/F9PS84AH",
+    "type": "article-journal",
+    "abstract": "In the past, team coordination dynamics have been explored using nonlinear dynamical systems (NDS) methods, but the relationship between team coordination dynamics and team performance for all-human teams was assumed to be linear. The current study examines team coordination dynamics with an extended version of the NDS methods and assumes that its relationship with team performance for human-autonomy teams (HAT) is nonlinear. In this study, three team conditions are compared with the goals of better understanding how team coordination dynamics differ between all-human teams and HAT and how these dynamics relate to team performance and team situation awareness. Each condition was determined based on manipulation of the pilot role: in the ﬁrst condition (synthetic) the pilot role was played by a synthetic agent, in the second condition (control) it was a randomly assigned participant, and in the third condition (experimenter) it was an expert who used a role speciﬁc coordination script. NDS indices revealed that synthetic teams were rigid, followed by experimenter teams, who were metastable, and control teams, who were unstable. Experimenter teams demonstrated better team effectiveness (i.e., better team performance and team situation awareness) than control and synthetic teams. Team coordination stability is related to team performance and team situation awareness in a nonlinear manner with optimal performance and situation awareness associated with metastability coupled with ﬂexibility. This result means that future development of synthetic teams should address these coordination dynamics, speciﬁcally, rigidity in coordination.",
+    "container-title": "IEEE Transactions on Human-Machine Systems",
+    "DOI": "10.1109/THMS.2018.2877482",
+    "ISSN": "2168-2291, 2168-2305",
+    "issue": "2",
+    "journalAbbreviation": "IEEE Trans. Human-Mach. Syst.",
+    "language": "en",
+    "page": "150-159",
+    "source": "DOI.org (Crossref)",
+    "title": "Team Coordination and Effectiveness in Human-Autonomy Teaming",
+    "URL": "https://ieeexplore.ieee.org/document/8526337/",
+    "volume": "49",
+    "author": [
+      {
+        "family": "Demir",
+        "given": "Mustafa"
+      },
+      {
+        "family": "Likens",
+        "given": "Aaron D."
+      },
+      {
+        "family": "Cooke",
+        "given": "Nancy J."
+      },
+      {
+        "family": "Amazeen",
+        "given": "Polemnia G."
+      },
+      {
+        "family": "McNeese",
+        "given": "Nathan J."
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2020",
+          3,
+          12
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2019",
+          4
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/local/bB4beZZW/items/XGZHT85P",
+    "type": "article-journal",
+    "abstract": "In this paper, we explore how the Recognition Primed Decision Making (RPDM) model can be applied to the decision making process of a human-automation team, specifically teams of humans who work together with a synthetic teammate. To better explain and describe the role of the RPDM in human-automation teams we have grounded the discussion in a larger project that has consisted of multiple human-automation teaming experiments over years. Through our own research, we have realized the important role of the RPDM model during the Information-Negotiation-Feedback (INF) process of decision making. In this paper, we detail how RPDM helps to make decisions through utilizing experience in communicating and coordinating with a synthetic teammate.",
+    "DOI": "10.13140/RG.2.1.1431.0567",
+    "language": "en",
+    "note": "publisher: Unpublished",
+    "source": "DOI.org (Datacite)",
+    "title": "The Role of Recognition Primed Decision Making in Human-Automation (H-A) Teaming",
+    "URL": "http://rgdoi.net/10.13140/RG.2.1.1431.0567",
+    "author": [
+      {
+        "family": "Demir",
+        "given": "Mustafa"
+      },
+      {
+        "family": "McNeese",
+        "given": "Nathan J."
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2020",
+          3,
+          12
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2015"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/local/bB4beZZW/items/LM7QLN8W",
+    "type": "paper-conference",
+    "abstract": "Electronic medical record (EMR) systems are used by a wide variety of users. However, current research on the design and use of the EMR primarily focuses on clinical users such as physicians and nurses. While it is important to understand EMR use by clinicians, there is also a need to understand how non-clinicians use these systems because of the important role they play in the patient-care process. In this note, we present results of an ethnographic field study on the use and perceptions of EMR systems by nonclinicians in an emergency department. We then discuss design implications that can improve the system usability and strengthen the empowerment of these non-clinicians.",
+    "container-title": "Proceedings of the 2014 conference on Designing interactive systems - DIS '14",
+    "DOI": "10.1145/2598510.2600884",
+    "event": "the 2014 conference",
+    "event-place": "Vancouver, BC, Canada",
+    "ISBN": "978-1-4503-2902-6",
+    "language": "en",
+    "page": "429-432",
+    "publisher": "ACM Press",
+    "publisher-place": "Vancouver, BC, Canada",
+    "source": "DOI.org (Crossref)",
+    "title": "Exploring the perceptions and use of electronic medical record systems by non-clinicians",
+    "URL": "http://dl.acm.org/citation.cfm?doid=2598510.2600884",
+    "author": [
+      {
+        "family": "Murphy",
+        "given": "Alison R."
+      },
+      {
+        "family": "Reddy",
+        "given": "Madhu C."
+      },
+      {
+        "family": "McNeese",
+        "given": "Nathan J."
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2020",
+          3,
+          12
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2014"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/local/bB4beZZW/items/MCUJJ94Z",
+    "type": "article-journal",
+    "abstract": "A novel joint decision making paradigm for assessing team coordination was developed and tested using baseball inﬁelders. Balls launched onto an inﬁeld at different trajectories were ﬁlmed using four video cameras that were each placed at one of the typical positions of the four inﬁelders. Each participant viewed temporally occluded videos for one of the four positions and were asked to say either “ball” if they would attempt to ﬁeld it or the name of the bag that they would cover. The evaluation of two experienced coaches was used to assign a group coordination score for each trajectory and group decision times were calculated. Thirty groups of 4 current college baseball players were: (i) teammates (players from same team/view from own position), (ii) non-teammates (players from different teams/view from own position), or (iii) scrambled teammates (players from same team/view not from own position). Teammates performed signiﬁcantly better (i.e., faster and more coordinated decisions) than the other two groups, whereas scrambled teammates performed signiﬁcantly better than non-teammates. These ﬁndings suggest that team coordination is achieved through both experience with one’s teammates’ responses to particular events (e.g., a ball hit up the middle) and one’s own general action capabilities (e.g., running speed). The sensitivity of our joint decision making paradigm to group makeup provides support for its use as a method for studying team coordination.",
+    "container-title": "Frontiers in Psychology",
+    "DOI": "10.3389/fpsyg.2017.00907",
+    "ISSN": "1664-1078",
+    "journalAbbreviation": "Front. Psychol.",
+    "language": "en",
+    "page": "907",
+    "source": "DOI.org (Crossref)",
+    "title": "Investigating Team Coordination in Baseball Using a Novel Joint Decision Making Paradigm",
+    "URL": "http://journal.frontiersin.org/article/10.3389/fpsyg.2017.00907/full",
+    "volume": "8",
+    "author": [
+      {
+        "family": "Gray",
+        "given": "Rob"
+      },
+      {
+        "family": "Cooke",
+        "given": "Nancy J."
+      },
+      {
+        "family": "McNeese",
+        "given": "Nathan J."
+      },
+      {
+        "family": "McNabb",
+        "given": "Jaimie"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2020",
+          3,
+          12
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2017",
+          6,
+          7
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/local/bB4beZZW/items/T2N3XRNA",
+    "type": "chapter",
+    "abstract": "Remotely piloted aircraft systems (RPAS) are steadily increasing in their presence and role in the Military’s overall strategic operational picture. The beneﬁts of RPAS are apparent, ranging from saving time, money, and lives. Yet, the utilization of RPAS is still very challenging in many diﬀerent aspects. Teams have become a central focus of RPAS due to their many beneﬁts. Yet, teamwork is challenging and the RPAS community must continue to attempt to understand how to support it. A speciﬁc aspect of teamwork that has proven over the years to be of paramount importance is team cognition. In this paper, we discuss how team cognition needs to be considered during the development of collaborative and proactive RPAS decision support. We highlight the concept of team cognition accounting for multiple perspectives, outline an integrative perspective of team cognition for the RPAS domain, and conclude by outlining multiple design objectives for utilizing team cognition as a mechanism for RPAS decision support.",
+    "container-title": "Foundations of Augmented Cognition: Neuroergonomics and Operational Neuroscience",
+    "event-place": "Cham",
+    "ISBN": "978-3-319-39951-5",
+    "language": "en",
+    "note": "collection-title: Lecture Notes in Computer Science\nDOI: 10.1007/978-3-319-39952-2_20",
+    "page": "198-209",
+    "publisher": "Springer International Publishing",
+    "publisher-place": "Cham",
+    "source": "DOI.org (Crossref)",
+    "title": "Team Cognition as a Mechanism for Developing Collaborative and Proactive Decision Support in Remotely Piloted Aircraft Systems",
+    "URL": "http://link.springer.com/10.1007/978-3-319-39952-2_20",
+    "volume": "9744",
+    "editor": [
+      {
+        "family": "Schmorrow",
+        "given": "Dylan D."
+      },
+      {
+        "family": "Fidopiastis",
+        "given": "Cali M."
+      }
+    ],
+    "author": [
+      {
+        "family": "McNeese",
+        "given": "Nathan J."
+      },
+      {
+        "family": "Cooke",
+        "given": "Nancy J."
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2020",
+          3,
+          12
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2016"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/local/bB4beZZW/items/737GJSTF",
+    "type": "article-journal",
+    "container-title": "Proceedings of the Human Factors and Ergonomics Society Annual Meeting",
+    "DOI": "10.1177/1541931214581059",
+    "ISSN": "1541-9312",
+    "issue": "1",
+    "journalAbbreviation": "Proceedings of the Human Factors and Ergonomics Society Annual Meeting",
+    "language": "en",
+    "page": "285-289",
+    "source": "DOI.org (Crossref)",
+    "title": "An Integrative Simulation to Study Team Cognition in Emergency Crisis Management",
+    "URL": "http://journals.sagepub.com/doi/10.1177/1541931214581059",
+    "volume": "58",
+    "author": [
+      {
+        "family": "McNeese",
+        "given": "Michael D."
+      },
+      {
+        "family": "Mancuso",
+        "given": "Vincent F."
+      },
+      {
+        "family": "McNeese",
+        "given": "Nathan J."
+      },
+      {
+        "family": "Endsley",
+        "given": "Tristan"
+      },
+      {
+        "family": "Forster",
+        "given": "Pete"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2020",
+          3,
+          12
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2014",
+          9
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/local/bB4beZZW/items/GREYXMS9",
+    "type": "article-journal",
+    "container-title": "Proceedings of the Human Factors and Ergonomics Society Annual Meeting",
+    "DOI": "10.1177/1541931218621275",
+    "ISSN": "1541-9312",
+    "issue": "1",
+    "journalAbbreviation": "Proceedings of the Human Factors and Ergonomics Society Annual Meeting",
+    "language": "en",
+    "page": "1197-1201",
+    "source": "DOI.org (Crossref)",
+    "title": "Intelligent and Human-Centered Clinical Checklists: A Voice Interface for Virtualized Clinical Paths",
+    "title-short": "Intelligent and Human-Centered Clinical Checklists",
+    "URL": "http://journals.sagepub.com/doi/10.1177/1541931218621275",
+    "volume": "62",
+    "author": [
+      {
+        "family": "Barberis",
+        "given": "Lorenzo"
+      },
+      {
+        "family": "McNeese",
+        "given": "Nathan J."
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2020",
+          3,
+          12
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2018",
+          9
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/local/bB4beZZW/items/4VH2X9FH",
+    "type": "article-journal",
+    "abstract": "In future urban search and rescue teams, robots may be expected to conduct cognitive tasks. As the capabilities of robots change, so too will their interdependence with human teammates. Human factors and cognitive engineering are well-positioned to guide the design of autonomy for effective teaming. Previous work in the urban search and rescue synthetic task environment (USAR-STE) used Minecraft, a customizable gaming platform. In this effort, we advanced the USAR-STE by increasing interdependence in dyadic human-robot teaming through the Coactive Design framework. In this framework, we defined required capacities of victim identification in USAR from literature, and used them as inputs for modeling interdependence, and determined recommendations that would enhance interdependence in the task environment. Although Coactive Design is typically used to design interdependence for robots or jobs, we demonstrated how it can also be used to design an experimental team task environment.",
+    "container-title": "Proceedings of the Human Factors and Ergonomics Society Annual Meeting",
+    "DOI": "10.1177/1071181319631433",
+    "ISSN": "2169-5067, 1071-1813",
+    "issue": "1",
+    "journalAbbreviation": "Proceedings of the Human Factors and Ergonomics Society Annual Meeting",
+    "language": "en",
+    "page": "1503-1507",
+    "source": "DOI.org (Crossref)",
+    "title": "Developing Human-Robot Team Interdependence in a Synthetic Task Environment",
+    "URL": "http://journals.sagepub.com/doi/10.1177/1071181319631433",
+    "volume": "63",
+    "author": [
+      {
+        "family": "Lematta",
+        "given": "Glenn J."
+      },
+      {
+        "family": "Coleman",
+        "given": "Pamela B."
+      },
+      {
+        "family": "Bhatti",
+        "given": "Shawaiz A."
+      },
+      {
+        "family": "Chiou",
+        "given": "Erin K."
+      },
+      {
+        "family": "McNeese",
+        "given": "Nathan J."
+      },
+      {
+        "family": "Demir",
+        "given": "Mustafa"
+      },
+      {
+        "family": "Cooke",
+        "given": "Nancy J."
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2020",
+          3,
+          12
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2019",
+          11
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/local/bB4beZZW/items/V8H3PDBB",
+    "type": "paper-conference",
+    "abstract": "This study aims to better understand trust in humanautonomy teams, finding that trust is related to team performance. A wizard of oz methodology was used in an experiment to simulate an autonomous agent as a team member in a remotely piloted aircraft system environment. Specific focuses of the study were team performance and team social behaviors (specifically trust) of human-autonomy teams. Results indicate 1) that there are lower levels of trust in the autonomous agent in low performing teams than both medium and high performing teams, 2) there is a loss of trust in the autonomous agent across low, medium, and high performing teams over time, and 3) that in addition to the human team members indicating low levels of trust in the autonomous agent, both low and medium performing teams also indicated lower levels of trust in their human team members.",
+    "DOI": "10.24251/HICSS.2019.032",
+    "event": "Hawaii International Conference on System Sciences",
+    "language": "en",
+    "source": "DOI.org (Crossref)",
+    "title": "Understanding the Role of Trust in Human-Autonomy Teaming",
+    "URL": "http://hdl.handle.net/10125/59466",
+    "author": [
+      {
+        "family": "McNeese",
+        "given": "Nathan"
+      },
+      {
+        "family": "Demir",
+        "given": "Mustafa"
+      },
+      {
+        "family": "Chiou",
+        "given": "Erin"
+      },
+      {
+        "family": "Cooke",
+        "given": "Nancy"
+      },
+      {
+        "family": "Yanikian",
+        "given": "Giovanni"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2020",
+          3,
+          12
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2019"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/local/bB4beZZW/items/JFDZI6L8",
+    "type": "article-journal",
+    "container-title": "Proceedings of the Human Factors and Ergonomics Society Annual Meeting",
+    "DOI": "10.1177/1541931213601324",
+    "ISSN": "1541-9312",
+    "issue": "1",
+    "journalAbbreviation": "Proceedings of the Human Factors and Ergonomics Society Annual Meeting",
+    "language": "en",
+    "page": "1409-1413",
+    "source": "DOI.org (Crossref)",
+    "title": "The Extreme Environment of High Altitude Gas Ballooning: Lessons Learned in Assessing Cognition",
+    "title-short": "The Extreme Environment of High Altitude Gas Ballooning",
+    "URL": "http://journals.sagepub.com/doi/10.1177/1541931213601324",
+    "volume": "60",
+    "author": [
+      {
+        "family": "McNeese",
+        "given": "Nathan J."
+      },
+      {
+        "family": "Cooke",
+        "given": "Nancy J."
+      },
+      {
+        "family": "Shope",
+        "given": "Steven"
+      },
+      {
+        "family": "Knobloch",
+        "given": "Ashley"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2020",
+          3,
+          12
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2016",
+          9
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/local/bB4beZZW/items/JWIJXD8E",
+    "type": "chapter",
+    "abstract": "In this paper, we explore a network of distributed individuals’ collective efforts to establish an innovation ecology allowing them to engage in bottom up creative technological practices in today’s information society. Speciﬁcally, we present an empirical study of the technological practices in an emerging creative technology community – independent [indie] game developers in the United States. Based on indie game developers’ own accounts, we identiﬁed four themes that constitute an innovation ecology from the bottom up, including problem solving; collaborative information seeking, sharing, and reproducing; community support; and policy and politics. We argue that these ﬁndings inform our understanding of bottom up technological innovation and shed light on the design of sociotechnical systems to mediate and support such innovation beyond the gaming context.",
+    "container-title": "Information in Contemporary Society",
+    "event-place": "Cham",
+    "ISBN": "978-3-030-15741-8",
+    "language": "en",
+    "note": "collection-title: Lecture Notes in Computer Science\nDOI: 10.1007/978-3-030-15742-5_58",
+    "page": "614-624",
+    "publisher": "Springer International Publishing",
+    "publisher-place": "Cham",
+    "source": "DOI.org (Crossref)",
+    "title": "The Innovation Ecology: Collaborative Information, Community Support, and Policy in a Creative Technology Community",
+    "title-short": "The Innovation Ecology",
+    "URL": "http://link.springer.com/10.1007/978-3-030-15742-5_58",
+    "volume": "11420",
+    "editor": [
+      {
+        "family": "Taylor",
+        "given": "Natalie Greene"
+      },
+      {
+        "family": "Christian-Lamb",
+        "given": "Caitlin"
+      },
+      {
+        "family": "Martin",
+        "given": "Michelle H."
+      },
+      {
+        "family": "Nardi",
+        "given": "Bonnie"
+      }
+    ],
+    "author": [
+      {
+        "family": "Freeman",
+        "given": "Guo"
+      },
+      {
+        "family": "Bardzell",
+        "given": "Jeffrey"
+      },
+      {
+        "family": "Bardzell",
+        "given": "Shaowen"
+      },
+      {
+        "family": "McNeese",
+        "given": "Nathan J."
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2020",
+          3,
+          12
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2019"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/local/bB4beZZW/items/DZ9Z7FN8",
+    "type": "article-journal",
+    "abstract": "Improvised Explosive Devices (IEDs) have become one of the deadliest threats to military personnel, resulting in over 50% of American combat casualties in Iraq and Afghanistan. Identiﬁcation of IED emplacement is conducted by mission payload operators (MPOs). Yet, experienced MPOs are limited in number, making MPO training a critical intervention. In this article, we implement a Cognitive Engineering Based on Expert Skill methodology to better understand how experienced MPOs identify the emplacement of IEDs for the purposes of improving training. First, expert knowledge was elicited through interviews and questionnaires to identify the types of perceptual cues used and how these cues are cognitively processed. Results indicate that there are many different static and dynamic cues that interact with each other over time and space. Using data from the interviews and questionnaires, an empirically grounded framework is presented that explains the cognitive process of IED emplacement detection. Using the overall ﬁndings and the framework, IED emplacement training scenarios were developed and built into a simulation.",
+    "container-title": "Applied Ergonomics",
+    "DOI": "10.1016/j.apergo.2016.10.012",
+    "ISSN": "00036870",
+    "journalAbbreviation": "Applied Ergonomics",
+    "language": "en",
+    "page": "43-51",
+    "source": "DOI.org (Crossref)",
+    "title": "Identification of the Emplacement of Improvised Explosive Devices by Experienced Mission Payload Operators",
+    "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0003687016302253",
+    "volume": "60",
+    "author": [
+      {
+        "family": "McNeese",
+        "given": "Nathan J."
+      },
+      {
+        "family": "Cooke",
+        "given": "Nancy J."
+      },
+      {
+        "family": "Branaghan",
+        "given": "Russell"
+      },
+      {
+        "family": "Knobloch",
+        "given": "Ashley"
+      },
+      {
+        "family": "Taylor",
+        "given": "Amanda"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2020",
+          3,
+          12
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2017",
+          4
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/local/bB4beZZW/items/EJIW9MJC",
+    "type": "article-journal",
+    "abstract": "The emergence of various interest-based online communities has led to the popularity of new forms of distributed creative teamwork such as citizen science, crowdsourcing, and open source software development. These new phenomena further complicate the context and content of distributed creative teamwork: what are the characteristics of these new forms of creative teams? And how do they shape people’s perceptions and social experiences of distributed creative teams? In this paper, we report our empirical research of the team characteristics and practices in a creativity-centric technology community (i.e., independent [indie] game development) in hopes of exploring these questions. Our ﬁndings show that 1) indie game development teams are formed upon shared aspirations and use various strategies to collaborate with friends or online strangers; and their team practices are achieved through a balance between individual creativity and collective vision as well as a collaborative learning for problem solving and self-improvement; and 2) these teams mediate new forms of social interaction and collaborative experiences, featuring a mix of online comradery and weak social ties, and a mix of self-conﬁdence and self-conﬂiction. Using this new dataset and research context, we conﬁrm and extend existing theories of distributed creative teams in CSCW. We also argue that studying these small-scale, self-selected, and interest-based teams can inform the design of collaborative systems to support various creative teams’ social needs.",
+    "container-title": "Computer Supported Cooperative Work (CSCW)",
+    "DOI": "10.1007/s10606-019-09348-x",
+    "ISSN": "0925-9724, 1573-7551",
+    "issue": "3-4",
+    "journalAbbreviation": "Comput Supported Coop Work",
+    "language": "en",
+    "page": "723-748",
+    "source": "DOI.org (Crossref)",
+    "title": "Exploring Indie Game Development: Team Practices and Social Experiences in A Creativity-Centric Technology Community",
+    "title-short": "Exploring Indie Game Development",
+    "URL": "http://link.springer.com/10.1007/s10606-019-09348-x",
+    "volume": "28",
+    "author": [
+      {
+        "family": "Freeman",
+        "given": "Guo"
+      },
+      {
+        "family": "McNeese",
+        "given": "Nathan J."
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2020",
+          3,
+          12
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2019",
+          6
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/local/bB4beZZW/items/9AW4TW6F",
+    "type": "article-journal",
+    "abstract": "Project overview\n              Teamwork can be defined as dynamic team interaction between two or more interdependent members to achieve a shared goal. Many studies have examined how coordination dynamics are associated with team effectiveness in the context of all-human teams (Gorman, Amazeen, & Cooke, 2010), and later, in human-autonomy teams (HAT)s (Demir, Likens, Cooke, Amazeen, & McNeese, 2018). HATs must have autonomous agents that act as effective teammates and help enable HATs to function as collaborative systems. Synergistic relationships among a system’s human and technological components provide the basis for emergent systems-level outcomes. Layered dynamics, a recent empirical modelling technique aimed at achieving this objective (Gorman et al., 2019), considers reorganization of the sociotechnical system across individual components and the overall system. The current study examined layered dynamics of HATs during automation and autonomy failures and addresses how members of HATs interact with each other and technological aspects of the system.\n            \n            \n              Design and Method\n              We utilized a simulated Remotely Piloted Aircrtaft System (RPAS) Synthetic Task Environment with three heteregeneous and interdepedent roles: (1) a navigator, who created a dynamic flight plan and provided waypoint related information; (2) a pilot, who used this information to monitor and adjust settings. The pilot also communicated with the photographer to negotiate settings and enable proper conditions to obtain a good photograph; and (3) a photographer, who monitored and adjusted the camera to take good target photos, and provided feedback to the team. This study utilized a Wizard of Oz paradigm, in which the navigator and photographer were instructed that the pilot was a synthetic agent. However, the pilot was a highly-trained experimenter, in a separate room, who simulated an autonomous agent using limited vocabulary. There were 22 teams, and two participants were randomly assigned to the navigator and photographer roles. This task was comprised of ten 40-minute missions, and teams needed to take as many good photos as possible while avoiding alarms and rule violations. The primary manipulation was the application of three degraded conditions: (1) automation failure - role-level display failures, (2) autonomy failure - autonomous agent’s abnormal behavior, and (3) malicious cyber-attacks - the hijaking of the RPAS, with the synthetic agent providing false, detrimental information. We symbolically represented RPAS using layered dynamics, and calculated entropy measures for each (Gorman et al., 2019): (1) communications: team members interacting within the chat system; (2) vehicle: states of the RPA, including airspeed/altitude, turns, fuel, battery, remaining film, and termperature level; and (3) controls: the interface controls between the RPA and the team members. To measure team performance, we used a time and coordination based metric for each target in each mission.\n            \n            \n              Results and Discussion\n              Our main findings were: 1) vehicle and communication entropy were higher than control entropy and were associated with better adaptation to both failures, and 2) control entropy had a negative association with initial status on team performance, while vehicle entropy had a positive association. These findings describe the tendency of low performing teams to anticipate targets poorly. This was due to a failure to interact with the technology in a timely manner. This lagged effect can be attributed to teams taking too long to interact with the technology. These findings shed light on how the layered dynamics approach can help understand team behavior under degraded conditions.\n            \n            \n              Acknowledgements\n              This research is supported by ONR Award N000141712382 (Program Managers: Marc Steinberg, Micah Clark). We also acknowledge the assistance of Steven M. Shope, Sandia Research Corporation who integrated the synthetic agent and the testbed.",
+    "container-title": "Proceedings of the Human Factors and Ergonomics Society Annual Meeting",
+    "DOI": "10.1177/1071181319631307",
+    "ISSN": "2169-5067, 1071-1813",
+    "issue": "1",
+    "journalAbbreviation": "Proceedings of the Human Factors and Ergonomics Society Annual Meeting",
+    "language": "en",
+    "page": "165-165",
+    "source": "DOI.org (Crossref)",
+    "title": "Layered Dynamics and System Effectiveness of Human-Autonomy Teams Under Degraded Conditions",
+    "URL": "http://journals.sagepub.com/doi/10.1177/1071181319631307",
+    "volume": "63",
+    "author": [
+      {
+        "family": "Grimm",
+        "given": "David A."
+      },
+      {
+        "family": "Demir",
+        "given": "Mustafa"
+      },
+      {
+        "family": "Gorman",
+        "given": "Jamie C."
+      },
+      {
+        "family": "Cooke",
+        "given": "Nancy J."
+      },
+      {
+        "family": "McNeese",
+        "given": "Nathan J."
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2020",
+          3,
+          12
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2019",
+          11
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/local/bB4beZZW/items/8PXXGW4V",
+    "type": "article-journal",
+    "abstract": "Human Factors has informed both research and practice for over 100 years [1].In this time, many theories, methods, and design practices have been implemented.As a result, the way Human Factors as a discipline has been conceptualized and put into practice has undergone numerous changes. Human Factors, at its heart is the idea that technology influences humans, and that humans influence the performance efficiency and effectiveness of technology, and other humans.Recent approaches to Human Factors have created multiple baseline assumptions on understanding human system interaction. For example, McNeese et al. [2] identified four systems design paradigms wherein each produce a qualitatively different outcome: Technology-Centered, UserCentered, Data-Centered, Group-Centered.Although there is value and truth in each approach, individually each theme limits its scope by deemphasizing contributions from the others. Because isomorphic approaches abound in the field, this paper theorizes a more optimal approach to contemporary human factors - The Living Laboratory Framework – that posits a wholistic perspective addressing various underling parameters in complex problem solving and innovative design. In this contemporary approach, the theory–problems–practice becomes highly integrated, reflecting unique and dynamic methods to create human-system integration. Examples are provided in the domains of cyber operations and police cognition to demonstrate the value of this approach.",
+    "container-title": "Procedia Manufacturing",
+    "DOI": "10.1016/j.promfg.2015.07.592",
+    "ISSN": "23519789",
+    "journalAbbreviation": "Procedia Manufacturing",
+    "language": "en",
+    "page": "5222-5229",
+    "source": "DOI.org (Crossref)",
+    "title": "What Went Wrong? What can go Right? A Prospectus on Human Factors Practice",
+    "title-short": "What Went Wrong?",
+    "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2351978915005934",
+    "volume": "3",
+    "author": [
+      {
+        "family": "McNeese",
+        "given": "Michael D."
+      },
+      {
+        "family": "Mancuso",
+        "given": "Vincent F."
+      },
+      {
+        "family": "McNeese",
+        "given": "Nathan J."
+      },
+      {
+        "family": "Glantz",
+        "given": "Edward"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2020",
+          3,
+          12
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2015"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/local/bB4beZZW/items/37493W8H",
+    "type": "article-journal",
+    "container-title": "IEEE Systems, Man, and Cybernetics Magazine",
+    "DOI": "10.1109/MSMC.2019.2935677",
+    "ISSN": "2333-942X, 2380-1298",
+    "issue": "4",
+    "journalAbbreviation": "IEEE Syst. Man Cybern. Mag.",
+    "language": "en",
+    "page": "10-15",
+    "source": "DOI.org (Crossref)",
+    "title": "The Pursuit of Transdisciplinary Research: Eight Recommendations for Integrating Disciplines",
+    "title-short": "The Pursuit of Transdisciplinary Research",
+    "URL": "https://ieeexplore.ieee.org/document/8868135/",
+    "volume": "5",
+    "author": [
+      {
+        "family": "McNeese",
+        "given": "Nathan J."
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2020",
+          3,
+          12
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2019",
+          10
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/local/bB4beZZW/items/XE4XUF4C",
+    "type": "article-journal",
+    "container-title": "Proceedings of the Human Factors and Ergonomics Society Annual Meeting",
+    "DOI": "10.1177/1541931218621287",
+    "ISSN": "1541-9312",
+    "issue": "1",
+    "journalAbbreviation": "Proceedings of the Human Factors and Ergonomics Society Annual Meeting",
+    "language": "en",
+    "page": "1252-1256",
+    "source": "DOI.org (Crossref)",
+    "title": "Machine Learning as Grounded Theory: Human-Centered Interfaces for Social Network Research through Artificial Intelligence",
+    "title-short": "Machine Learning as Grounded Theory",
+    "URL": "http://journals.sagepub.com/doi/10.1177/1541931218621287",
+    "volume": "62",
+    "author": [
+      {
+        "family": "Barberis Canonico",
+        "given": "Lorenzo"
+      },
+      {
+        "family": "McNeese",
+        "given": "Nathan J."
+      },
+      {
+        "family": "Duncan",
+        "given": "Chris"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2020",
+          3,
+          12
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2018",
+          9
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/local/bB4beZZW/items/QFCTQBMG",
+    "type": "article-journal",
+    "container-title": "Proceedings of the Human Factors and Ergonomics Society Annual Meeting",
+    "DOI": "10.1177/1541931215591275",
+    "ISSN": "1541-9312",
+    "issue": "1",
+    "journalAbbreviation": "Proceedings of the Human Factors and Ergonomics Society Annual Meeting",
+    "language": "en",
+    "page": "951-955",
+    "source": "DOI.org (Crossref)",
+    "title": "Synthetic Teammate Communication and Coordination With Humans",
+    "URL": "http://journals.sagepub.com/doi/10.1177/1541931215591275",
+    "volume": "59",
+    "author": [
+      {
+        "family": "Demir",
+        "given": "Mustafa"
+      },
+      {
+        "family": "McNeese",
+        "given": "Nathan J."
+      },
+      {
+        "family": "Cooke",
+        "given": "Nancy J."
+      },
+      {
+        "family": "Ball",
+        "given": "Jerry T."
+      },
+      {
+        "family": "Myers",
+        "given": "Christopher"
+      },
+      {
+        "family": "Frieman",
+        "given": "Mary"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2020",
+          3,
+          12
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2015",
+          9
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/local/bB4beZZW/items/2HRXDYYD",
+    "type": "article-journal",
+    "container-title": "Proceedings of the Human Factors and Ergonomics Society Annual Meeting",
+    "DOI": "10.1177/1541931215591027",
+    "ISSN": "1541-9312",
+    "issue": "1",
+    "journalAbbreviation": "Proceedings of the Human Factors and Ergonomics Society Annual Meeting",
+    "language": "en",
+    "page": "130-134",
+    "source": "DOI.org (Crossref)",
+    "title": "The Human Factors of Intelligence Analysis",
+    "URL": "http://journals.sagepub.com/doi/10.1177/1541931215591027",
+    "volume": "59",
+    "author": [
+      {
+        "family": "McNeese",
+        "given": "Nathan J."
+      },
+      {
+        "family": "Hoffman",
+        "given": "Robert R."
+      },
+      {
+        "family": "McNeese",
+        "given": "Michael D."
+      },
+      {
+        "family": "Patterson",
+        "given": "Emily S."
+      },
+      {
+        "family": "Cooke",
+        "given": "Nancy J."
+      },
+      {
+        "family": "Klein",
+        "given": "Gary"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2020",
+          3,
+          12
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2015",
+          9
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/local/bB4beZZW/items/RE359IUI",
+    "type": "article-journal",
+    "container-title": "Proceedings of the Human Factors and Ergonomics Society Annual Meeting",
+    "DOI": "10.1177/1541931215591049",
+    "ISSN": "1541-9312",
+    "issue": "1",
+    "journalAbbreviation": "Proceedings of the Human Factors and Ergonomics Society Annual Meeting",
+    "language": "en",
+    "page": "240-244",
+    "source": "DOI.org (Crossref)",
+    "title": "Articulating and Understanding the Development of a Team Mental Model in a Distributed Medium",
+    "URL": "http://journals.sagepub.com/doi/10.1177/1541931215591049",
+    "volume": "59",
+    "author": [
+      {
+        "family": "McNeese",
+        "given": "Nathan J."
+      },
+      {
+        "family": "Reddy",
+        "given": "Madhu C."
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2020",
+          3,
+          12
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2015",
+          9
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/local/bB4beZZW/items/TNTRBB9L",
+    "type": "article-journal",
+    "container-title": "Proceedings of the Human Factors and Ergonomics Society Annual Meeting",
+    "DOI": "10.1177/1541931215591050",
+    "ISSN": "1541-9312",
+    "issue": "1",
+    "journalAbbreviation": "Proceedings of the Human Factors and Ergonomics Society Annual Meeting",
+    "language": "en",
+    "page": "245-249",
+    "source": "DOI.org (Crossref)",
+    "title": "Concept Mapping as a Methodology to Develop Insights on Cognition During Collaborative Information Seeking",
+    "URL": "http://journals.sagepub.com/doi/10.1177/1541931215591050",
+    "volume": "59",
+    "author": [
+      {
+        "family": "McNeese",
+        "given": "Nathan J."
+      },
+      {
+        "family": "Reddy",
+        "given": "Madhu C."
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2020",
+          3,
+          12
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2015",
+          9
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/local/bB4beZZW/items/M6ZPMIVD",
+    "type": "article-journal",
+    "container-title": "Proceedings of the Human Factors and Ergonomics Society Annual Meeting",
+    "DOI": "10.1177/1541931215591249",
+    "ISSN": "1541-9312",
+    "issue": "1",
+    "journalAbbreviation": "Proceedings of the Human Factors and Ergonomics Society Annual Meeting",
+    "language": "en",
+    "page": "821-825",
+    "source": "DOI.org (Crossref)",
+    "title": "Human Factors Guidelines for Developing Collaborative Intelligence Analysis Technologies",
+    "URL": "http://journals.sagepub.com/doi/10.1177/1541931215591249",
+    "volume": "59",
+    "author": [
+      {
+        "family": "McNeese",
+        "given": "Nathan J."
+      },
+      {
+        "family": "Cooke",
+        "given": "Nancy J."
+      },
+      {
+        "family": "Buchanan",
+        "given": "Verica"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2020",
+          3,
+          12
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2015",
+          9
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/local/bB4beZZW/items/EI5KIIFN",
+    "type": "article-journal",
+    "container-title": "Proceedings of the Human Factors and Ergonomics Society Annual Meeting",
+    "DOI": "10.1177/1541931215591250",
+    "ISSN": "1541-9312",
+    "issue": "1",
+    "journalAbbreviation": "Proceedings of the Human Factors and Ergonomics Society Annual Meeting",
+    "language": "en",
+    "page": "826-830",
+    "source": "DOI.org (Crossref)",
+    "title": "The Cognitive Science of Intelligence Analysis",
+    "URL": "http://journals.sagepub.com/doi/10.1177/1541931215591250",
+    "volume": "59",
+    "author": [
+      {
+        "family": "McNeese",
+        "given": "Nathan J."
+      },
+      {
+        "family": "Buchanan",
+        "given": "Verica"
+      },
+      {
+        "family": "Cooke",
+        "given": "Nancy J."
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2020",
+          3,
+          12
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2015",
+          9
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/local/bB4beZZW/items/JTLB7BYS",
+    "type": "article-journal",
+    "container-title": "Proceedings of the Human Factors and Ergonomics Society Annual Meeting",
+    "DOI": "10.1177/1541931213601035",
+    "ISSN": "1541-9312",
+    "issue": "1",
+    "journalAbbreviation": "Proceedings of the Human Factors and Ergonomics Society Annual Meeting",
+    "language": "en",
+    "page": "153-157",
+    "source": "DOI.org (Crossref)",
+    "title": "Intelligent Teamwork: A History, Framework, and Lessons Learned",
+    "title-short": "Intelligent Teamwork",
+    "URL": "http://journals.sagepub.com/doi/10.1177/1541931213601035",
+    "volume": "60",
+    "author": [
+      {
+        "family": "McNeese",
+        "given": "Michael D."
+      },
+      {
+        "family": "McNeese",
+        "given": "Nathan J."
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2020",
+          3,
+          12
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2016",
+          9
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/local/bB4beZZW/items/SND2E7WM",
+    "type": "article-journal",
+    "container-title": "Proceedings of the Human Factors and Ergonomics Society Annual Meeting",
+    "DOI": "10.1177/1541931213601542",
+    "ISSN": "1541-9312",
+    "issue": "1",
+    "journalAbbreviation": "Proceedings of the Human Factors and Ergonomics Society Annual Meeting",
+    "language": "en",
+    "page": "236-236",
+    "source": "DOI.org (Crossref)",
+    "title": "Team Coordination Dynamics in Human-Autonomy Teaming",
+    "URL": "http://journals.sagepub.com/doi/10.1177/1541931213601542",
+    "volume": "61",
+    "author": [
+      {
+        "family": "Demir",
+        "given": "Mustafa"
+      },
+      {
+        "family": "Amazeen",
+        "given": "Polomnia G."
+      },
+      {
+        "family": "McNeese",
+        "given": "Nathan J."
+      },
+      {
+        "family": "Likens",
+        "given": "Aaron"
+      },
+      {
+        "family": "Cooke",
+        "given": "Nancy J."
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2020",
+          3,
+          12
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2017",
+          9
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/local/bB4beZZW/items/RNKYI5RL",
+    "type": "article-journal",
+    "container-title": "Proceedings of the Human Factors and Ergonomics Society Annual Meeting",
+    "DOI": "10.1177/1541931218621276",
+    "ISSN": "1541-9312",
+    "issue": "1",
+    "journalAbbreviation": "Proceedings of the Human Factors and Ergonomics Society Annual Meeting",
+    "language": "en",
+    "page": "1202-1206",
+    "source": "DOI.org (Crossref)",
+    "title": "Stable Teamwork Marriages in Healthcare: Applying Machine Learning to Surgeon-Nurse-Patient Matching",
+    "title-short": "Stable Teamwork Marriages in Healthcare",
+    "URL": "http://journals.sagepub.com/doi/10.1177/1541931218621276",
+    "volume": "62",
+    "author": [
+      {
+        "family": "Barberis Canonico",
+        "given": "Lorenzo"
+      },
+      {
+        "family": "McNeese",
+        "given": "Nathan J."
+      },
+      {
+        "family": "Shuffler",
+        "given": "Marissa L."
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2020",
+          3,
+          12
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2018",
+          9
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/local/bB4beZZW/items/8WWLK936",
+    "type": "paper-conference",
+    "abstract": "If synthetic teammates are to be considered “team players”, then they must be better equipped to handle the subtleties of communication and coordination with their human teammates. In this study, the team communication behaviors of a human-automation team were analyzed for the identification of which are the best predictors of team performance. The LASSO (Least Absolute Shrinkage and Selection Operator) method was used to select the team communication behaviors that were the best predictors of team performance and, in the end, 16 such role related communication behaviors (at both the role and condition level) were included in the final model. Findings indicate that in general, negatively perceived communication behaviors are predictors of negative team performance. Through this study, we also learned that even when human team members follow their optimal and expected communication behaviors when communicating with a synthetic teammate, these behaviors are still predictors of negative team performance. This finding holds important future considerations: even if human team members are properly communicating with a synthetic teammate, the errors and lack of human-like behavior on the part of the latter can still result in a negative team performance.",
+    "container-title": "2016 IEEE International Multi-Disciplinary Conference on Cognitive Methods in Situation Awareness and Decision Support (CogSIMA)",
+    "DOI": "10.1109/COGSIMA.2016.7497782",
+    "event": "2016 IEEE International Multi-Disciplinary Conference on Cognitive Methods in Situation Awareness and Decision Support (CogSIMA)",
+    "event-place": "San Diego, CA, USA",
+    "ISBN": "978-1-5090-0632-8",
+    "language": "en",
+    "page": "28-34",
+    "publisher": "IEEE",
+    "publisher-place": "San Diego, CA, USA",
+    "source": "DOI.org (Crossref)",
+    "title": "Team communication behaviors of the human-automation teaming",
+    "URL": "http://ieeexplore.ieee.org/document/7497782/",
+    "author": [
+      {
+        "family": "Demir",
+        "given": "Mustafa"
+      },
+      {
+        "family": "McNeese",
+        "given": "Nathan J."
+      },
+      {
+        "family": "Cooke",
+        "given": "Nancy J."
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2020",
+          3,
+          12
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2016",
+          3
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/local/bB4beZZW/items/REVU6HCK",
+    "type": "article-journal",
+    "container-title": "Cognitive Systems Research",
+    "DOI": "10.1016/j.cogsys.2016.11.003",
+    "ISSN": "13890417",
+    "journalAbbreviation": "Cognitive Systems Research",
+    "language": "en",
+    "page": "3-12",
+    "source": "DOI.org (Crossref)",
+    "title": "Team situation awareness within the context of human-autonomy teaming",
+    "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1389041716301747",
+    "volume": "46",
+    "author": [
+      {
+        "family": "Demir",
+        "given": "Mustafa"
+      },
+      {
+        "family": "McNeese",
+        "given": "Nathan J."
+      },
+      {
+        "family": "Cooke",
+        "given": "Nancy J."
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2020",
+          3,
+          12
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2017",
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/local/bB4beZZW/items/VH2J394B",
+    "type": "article-journal",
+    "container-title": "Frontiers in Communication",
+    "DOI": "10.3389/fcomm.2019.00050",
+    "ISSN": "2297-900X",
+    "journalAbbreviation": "Front. Commun.",
+    "language": "en",
+    "page": "50",
+    "source": "DOI.org (Crossref)",
+    "title": "The Evolution of Human-Autonomy Teams in Remotely Piloted Aircraft Systems Operations",
+    "URL": "https://www.frontiersin.org/article/10.3389/fcomm.2019.00050/full",
+    "volume": "4",
+    "author": [
+      {
+        "family": "Demir",
+        "given": "Mustafa"
+      },
+      {
+        "family": "McNeese",
+        "given": "Nathan J."
+      },
+      {
+        "family": "Cooke",
+        "given": "Nancy J."
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2020",
+          3,
+          12
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2019",
+          9,
+          6
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/local/bB4beZZW/items/75NAS5C9",
+    "type": "article-journal",
+    "abstract": "For most people, the concept of a team is most often associated with the context of sports. Sports permeate our society and are a critical form of entertainment for many. Fans of sports teams intently watch their team, often thinking little about the many complexities involved in any given team sport. Yet, the complexities are many, and one serious area that is historically understudied is the development of team cognition within sports teams. Sports teams are dynamic, in that they rely on both physical and cognitive dimensions of teamwork to be effective. A sports team does not only focus on strategy or developing a game plan to beat their opponent (cognitive), they must also execute this on the field of play (perceptual motor). The integration of both cognition and physical execution is dependent on the development of team cognition. Team cognition allows team members to develop an understanding of their overall strategic goals and implement them on the field. Thus, the development of team cognition within sports has the potential to greatly improve performance.Yet, to fully understand how team cognition develops within sports teams and its impact on and off the field, we need to study the developmental process more within this specific context. As with any domain specific area, conceptual/theoretical approaches and research methodologies must be identified as meaningful for the selected research context. This paper presents and describes theoretical approaches that are useful for studying sports and team cognition. Specifically, this paper explores and describes the theory of Interactive Team Cognition [1]as a perspective and approach to studying the development and implications of team cognition within team sports. As previously noted, sports are a highly dynamic activity and dependent on many functions (communication, coordination, collaboration) to be effective. The theory of Interactive Team Cognition directly aligns with these functions, acknowledging that team cognition is an activity (sports is) that is highly dependent on the context that it is occurring in. In addition, the theory also states that it is best to study and measure team cognition when the team is the unit of analysis. In this paper, we also present methods for how researchers can study team cognition within sports teams. The paper concludes with an overview of the potential to study team cognition within sports teams using the aforementioned approaches and methods.",
+    "container-title": "Procedia Manufacturing",
+    "DOI": "10.1016/j.promfg.2015.07.201",
+    "ISSN": "23519789",
+    "journalAbbreviation": "Procedia Manufacturing",
+    "language": "en",
+    "page": "1211-1218",
+    "source": "DOI.org (Crossref)",
+    "title": "Theoretical and Methodical Approaches to Studying Team Cognition in Sports",
+    "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2351978915002024",
+    "volume": "3",
+    "author": [
+      {
+        "family": "McNeese",
+        "given": "Nathan J."
+      },
+      {
+        "family": "Cooke",
+        "given": "Nancy J."
+      },
+      {
+        "family": "Fedele",
+        "given": "Michael A."
+      },
+      {
+        "family": "Gray",
+        "given": "Rob"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2020",
+          3,
+          12
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2015"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/local/bB4beZZW/items/VAZHVF83",
+    "type": "article-journal",
+    "abstract": "There is an ever-growing literature on the power of prediction markets to harness “the wisdom of the crowd” from large groups of people. However, traditional prediction markets are not designed in a human-centered way, often restricting their own potential. This creates the opportunity to implement a cognitive science perspective on how to enhance the collective intelligence of the participants. Thus, we propose a new model for prediction markets that integrates human factors, cognitive science, game theory and machine learning to maximize collective intelligence. We do this by first identifying the connections between prediction markets and collective intelligence, to then use human factors techniques to analyze our design, culminating in the practical ways with which our design enables artificial intelligence to complement human intelligence.",
+    "container-title": "Proceedings of the Human Factors and Ergonomics Society Annual Meeting",
+    "DOI": "10.1177/1071181319631282",
+    "ISSN": "2169-5067, 1071-1813",
+    "issue": "1",
+    "journalAbbreviation": "Proceedings of the Human Factors and Ergonomics Society Annual Meeting",
+    "language": "en",
+    "page": "1471-1475",
+    "source": "DOI.org (Crossref)",
+    "title": "The Wisdom of the Market: Using Human Factors to Design Prediction Markets for Collective Intelligence",
+    "title-short": "The Wisdom of the Market",
+    "URL": "http://journals.sagepub.com/doi/10.1177/1071181319631282",
+    "volume": "63",
+    "author": [
+      {
+        "family": "Canonico",
+        "given": "Lorenzo Barberis"
+      },
+      {
+        "family": "Flathmann",
+        "given": "Christopher"
+      },
+      {
+        "family": "McNeese",
+        "given": "Nathan"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2020",
+          3,
+          12
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2019",
+          11
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/local/bB4beZZW/items/NGLGUU2I",
+    "type": "article-journal",
+    "container-title": "Proceedings of the Human Factors and Ergonomics Society Annual Meeting",
+    "DOI": "10.1177/1541931214581069",
+    "ISSN": "1541-9312",
+    "issue": "1",
+    "journalAbbreviation": "Proceedings of the Human Factors and Ergonomics Society Annual Meeting",
+    "language": "en",
+    "page": "335-339",
+    "source": "DOI.org (Crossref)",
+    "title": "Towards a Team Mental Model of Collaborative Information Seeking during Team Decision-Making",
+    "URL": "http://journals.sagepub.com/doi/10.1177/1541931214581069",
+    "volume": "58",
+    "author": [
+      {
+        "family": "McNeese",
+        "given": "Nathan J."
+      },
+      {
+        "family": "Reddy",
+        "given": "Madhu C."
+      },
+      {
+        "family": "Friedenberg",
+        "given": "Evan M."
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2020",
+          3,
+          12
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2014",
+          9
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/local/bB4beZZW/items/JEPZRC5K",
+    "type": "article-journal",
+    "abstract": "In future urban search and rescue teams, robots may be expected to conduct cognitive tasks. As the capabilities of robots change, so too will their interdependence with human teammates. Human factors and cognitive engineering are well-positioned to guide the design of autonomy for effective teaming. Previous work in the urban search and rescue synthetic task environment (USAR-STE) used Minecraft, a customizable gaming platform. In this effort, we advanced the USAR-STE by increasing interdependence in dyadic human-robot teaming through the Coactive Design framework. In this framework, we defined required capacities of victim identification in USAR from literature, and used them as inputs for modeling interdependence, and determined recommendations that would enhance interdependence in the task environment. Although Coactive Design is typically used to design interdependence for robots or jobs, we demonstrated how it can also be used to design an experimental team task environment.",
+    "container-title": "Proceedings of the Human Factors and Ergonomics Society Annual Meeting",
+    "DOI": "10.1177/1071181319631433",
+    "ISSN": "2169-5067, 1071-1813",
+    "issue": "1",
+    "journalAbbreviation": "Proceedings of the Human Factors and Ergonomics Society Annual Meeting",
+    "language": "en",
+    "page": "1503-1507",
+    "source": "DOI.org (Crossref)",
+    "title": "Developing Human-Robot Team Interdependence in a Synthetic Task Environment",
+    "URL": "http://journals.sagepub.com/doi/10.1177/1071181319631433",
+    "volume": "63",
+    "author": [
+      {
+        "family": "Lematta",
+        "given": "Glenn J."
+      },
+      {
+        "family": "Coleman",
+        "given": "Pamela B."
+      },
+      {
+        "family": "Bhatti",
+        "given": "Shawaiz A."
+      },
+      {
+        "family": "Chiou",
+        "given": "Erin K."
+      },
+      {
+        "family": "McNeese",
+        "given": "Nathan J."
+      },
+      {
+        "family": "Demir",
+        "given": "Mustafa"
+      },
+      {
+        "family": "Cooke",
+        "given": "Nancy J."
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2020",
+          3,
+          12
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2019",
+          11
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/local/bB4beZZW/items/IZEHS9S6",
+    "type": "article-journal",
+    "abstract": "With multi-agent teams becoming more of a reality every day, it is important to create a common design model for multi-agent teams. These teams need to be able to function in dynamic environments and still communicate with any humans that may need a problem solved. Existing human-agent research can be used to purposefully create multi-agent teams that are interdependent but can still interact with humans. Rather than creating dynamic agents, the most effective way to overcome the dynamic nature of modern workloads is to create a dynamic team configuration, rather than individual member-agents that can change their roles. Multi-agent teams will require a variety of agents to be designed to cover a diverse subset of problems that need to be solved in the modern workforce. A model based on existing multi-agent teams that satisfies the needs of human-agent teams has been created to serve as a baseline for human-interactive multi-agent teams.",
+    "container-title": "Proceedings of the Human Factors and Ergonomics Society Annual Meeting",
+    "DOI": "10.1177/1071181319631238",
+    "ISSN": "2169-5067, 1071-1813",
+    "issue": "1",
+    "journalAbbreviation": "Proceedings of the Human Factors and Ergonomics Society Annual Meeting",
+    "language": "en",
+    "page": "1425-1429",
+    "source": "DOI.org (Crossref)",
+    "title": "Using Human-Agent Teams to Purposefully Design Multi-Agent Systems",
+    "URL": "http://journals.sagepub.com/doi/10.1177/1071181319631238",
+    "volume": "63",
+    "author": [
+      {
+        "family": "Flathmann",
+        "given": "Christopher"
+      },
+      {
+        "family": "McNeese",
+        "given": "Nathan"
+      },
+      {
+        "family": "Canonico",
+        "given": "Lorenzo Barberis"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2020",
+          3,
+          12
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2019",
+          11
+        ]
+      ]
+    }
+  }
+]
